@@ -1,0 +1,21 @@
+1. UFAL - Methode des Tableaux - Instituto de Computação (2015);
+2. Disciplina - Professor - Grupo;
+3. O que é o Methode des Tableaux?
+4. Um pouco de história;
+5. Uma definição formal;
+  5.1 Tableaux e sua relação com a computação;
+6. Elementos básicos de um Tableaux Semântico;
+  6.1 Alfabeto;
+  6.2 Conjunto das fórmulas;
+  6.3 Conjunto das regras de dedução;
+  6.4 Baseado em árvores;
+    6.4.1 Ramos;
+    6.4.2 Intepretação dos ramos;
+7. Quando chegamos a uma dedução?
+8. Exemplos
+  8.1 Exemplos tradicionais;
+  8.2 Exemplos utilizando questões de concurso;
+9. Quantificadores
+  9.1 Para todo;
+  9.2 Existe;
+10. Invalidade;
