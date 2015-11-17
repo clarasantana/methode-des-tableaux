@@ -17,7 +17,7 @@
           <h3>2015</h3>
         </section>
         <section>
-          <h3>Disciplina: Lógica (ECOM007)</h3>
+          <h3 style="padding-top: 3em">Disciplina: Lógica (ECOM007)</h3>
           <ul><h4>Grupo:</h4>
             <li>Cayo Luca</li>
             <li>Leonardo Vicente</li>
@@ -32,36 +32,38 @@
       <section>
         <h3 style="padding-top: 3em">Um pouco de história</h3>
         <ul>
-          <li>Inventado por Evert Beth em 1955;</li>
-          <li>Simplificado por Raymond Smullyan em 1968;</li>
-          <li>Generalizado para Lógica de Primeira Ordem em 1987 por Walter Carnielli;</li>
+          <li class="fragment">Inventado por Evert Beth em 1955;</li>
+          <li class="fragment">Simplificado por Raymond Smullyan em 1968;</li>
+          <li class="fragment">Generalizado para Lógica de Primeira Ordem em 1987 por Walter Carnielli;</li>
         </ul>
       </section>
       <section>
-        <section>
-          <h3 style="padding-top: 4.5em">Uma definição formal</h3>
-        </section>
-        <section>
-          <h3 style="padding-top: 4.5em">Tableaux e sua relação com a computação</h3>
-        </section>
+        <h3 style="padding-top: 4.5em">Tableaux e sua relação com a computação</h3>
+      </section>
+      <section>
+        <h3 style="padding-top: 4.5em">Uma definição formal</h3>
       </section>
       <section>
         <section>
           <h3 style="padding-top: 4.5em">Elementos básicos de um tableaux semântico</h3>
         </section>
         <section>
-          <ul>
-            <li><h4>O alfabeto da Lógica Proposicional;</h4></li>
-            <li><h4>O conjunto das fórmulas da Lógica Proposicional;</h4></li>
-            <li><h4>Um conjunto de regras de dedução;</h4></li>
-            <li><h4>Baseado em árvores:</h4>
+          <ul style="padding-top: 3.5em">
+            <li class="fragment">O alfabeto da Lógica Proposicional;</li>
+            <li class="fragment">O conjunto das fórmulas da Lógica Proposicional;</li>
+            <li class="fragment">Um conjunto de regras de dedução;</li>
+            <li class="fragment">Baseado em árvores:
               <ul>
-                <li><h5>Ramos são decomposições de H em subfórmula;</h5></li>
-                <li><h5>Cada ramo representa uma ou mais interpretações;</h5></li>
+                <li class="fragment">Ramos são decomposições de H em subfórmula;</li>
+                <li class="fragment">Cada ramo representa uma ou mais interpretações;</li>
               </ul>
             </li>
           </ul>
         </section>
+      </section>
+      <section>
+        <h3 style="padding-top: 1em">Regras de inferência de um Tableaux Semântico</h3>
+        <img src="tableaux-inferencia.png"/>
       </section>
       <section>
         <h3 style="padding: 4.5em">Quando chegamos a uma dedução?</h3>
@@ -71,10 +73,27 @@
           <h3 style="padding: 4.5em">Exemplos</h3>
         </section>
         <section>
-          <h3 style="padding: 1em">Exemplos tradicionais</h3>
+          <h3 style="padding: 1em">Exemplo tradicional</h3>
         </section>
         <section>
-          <h3 style="padding: 1em">Exemplos retirados de concursos</h3>
+          <h3 style="padding: 0.5em">Exemplo retirado de concurso</h3>
+          <h6>TRT 10ª 2013 - CESPE - Analita Judiciário - Tecnologia da Informaçãos</h6>
+          <p style="font-size: 0.6em">
+            Ao comentar sobre as razões da dor na região lombar que seu paciente sentia, o
+            médico fez as seguintes afirmativas.</br>
+            P1: Além de ser suportado pela estrutura óssea da coluna, seu peso é suportado também por sua estrutura muscular.</br>
+            P2: Se você estiver com sua estrutura muscular fraca ou com sobrepeso, estará com sobrecarga na estrutura óssea da coluna.</br>
+            P3: Se você estiver com sobrecarga na estrutura óssea da coluna, sentirá dores na região lombar.</br>
+            P4: Se você praticar exercícios físicos regularmente, sua estrutura muscular não estará fraca.</br>
+            P5: Se você tiver uma dieta balanceada, não estará com sobrepeso.</br>
+          </p>
+          <p style="font-size: 0.6em">
+            Tendo como referência a situação acima apresentada, julgue os itens seguintes, considerando
+            apenas seus aspectos lógicos.
+            Se todas as afirmações feitas pelo médico forem verdadeiras, também será verdadeira a afirmação “Se você
+            não sentisse dor na região lombar, então não estaria com sobrecarga na estrutura óssea da coluna"
+            é Correto ou Errado?
+          </p>
         </section>
       </section>
       <section>
@@ -82,14 +101,22 @@
           <h3 style="padding: 4.5em">Quantificadores</h3>
         </section>
         <section>
-          <h3 style="padding: 1em">Quantificador ∀</h3>
+          <h3 style="padding: 4.5em">Quantificador ∀</h3>
         </section>
         <section>
-          <h3 style="padding: 1em">Quantificador  ∃</h3>
+          <h3 style="padding: 4.5em">Quantificador  ∃</h3>
         </section>
       </section>
       <section>
-        <h3 style="padding: 4.5em">Invalidade</h3>
+        <section>
+          <h3 style="padding: 4.5em">Invalidade</h3>
+        </section>
+        <section>
+          <h3>Exemplo 1: Pa → ∀xPx</h3>
+        </section>
+        <section>
+          <h3>Exemplo 2: ∀x(Px v Qx) → (∀xPx v ∀xQx)</h3>
+        </section>
       </section>
       <section>
         <h3>Referências</h3>
@@ -105,7 +132,6 @@
   <script type="text/javascript" src="reveal-js/lib/js/head.min.js"></script>
   <script>
     Reveal.initialize({
-      autoSlide: 6000,
       mouseWheel: true,
       transition: 'concave',
       dependencies: [
